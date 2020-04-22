@@ -6,4 +6,5 @@
 class EmailParser 
   def initialize(emails)
     @emails = emails.split(",").join(" ").split(" ")
+  end
 end 
